@@ -9,8 +9,11 @@
 
 @media (max-width: 767.98px) {
   .ws-footer-col {
-    border-bottom: 1px solid #bbb;
+    border-bottom: 1px solid #ddd;
     padding-bottom: 30px;
+  }
+  .ws-footer-col:last-child {
+    border: none;
   }
 }
 

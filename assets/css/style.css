@@ -609,3 +609,7 @@ body {
   color: var(--ws-primary) !important;
   font-size: 30px;
 }
+.ws-copyright {
+  font-size: 0.8rem;
+  text-align: center;
+}
