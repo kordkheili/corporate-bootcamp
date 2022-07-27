@@ -1,0 +1,36 @@
+<svg
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                    >
+                      <style>
+                        @keyframes slide {
+                          0% {
+                            transform: translateX(0);
+                          }
+                          to {
+                            transform: translateX(5.5px) translateY(-1px);
+                          }
+                        }
+                      </style>
+                      <path
+                        stroke="#fff"
+                        stroke-width="1.5"
+                        d="M4 8a4 4 0 014-4h8a4 4 0 014 4v8a4 4 0 01-4 4H8a4 4 0 01-4-4V8z"
+                      />
+                      <path
+                        stroke="#fff"
+                        stroke-width="1.5"
+                        d="M4.221 17.607c.498-.603.767-.816 1.263-1.426.944-1.169 1.58-1.507 2.287-1.21.287.123.575.308.87.503.79.523 1.888 1.24 3.334.461.994-.544 1.57-1.477 2.07-2.286.206-.329.4-.657.627-.954.235-.308 1.107-1.271 2.234-.586.719.432 1.314.915 1.96 1.54.247.24.433.614.55.905.352.88.457 1.372.457 2.488"
+                      />
+                      <path
+                        stroke="#fff"
+                        stroke-width="1.33"
+                        d="M8.647 11.032c.977 0 1.773-.796 1.773-1.773 0-.977-.796-1.773-1.773-1.773-.978 0-1.773.796-1.773 1.773 0 .977.795 1.773 1.773 1.773"
+                        style="
+                          transform-origin: center;
+                          animation: slide 1.5s cubic-bezier(0.86, 0, 0.07, 1)
+                            infinite alternate-reverse both;
+                        "
+                      />
+                    </svg>

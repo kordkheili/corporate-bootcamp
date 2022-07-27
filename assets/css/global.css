@@ -1,0 +1,88 @@
+:root {
+  --ws-primary: #04bba3;
+  --ws-secondary: #002833;
+  --ws-color-3: #8c5acd;
+}
+@font-face {
+  font-family: "yekan";
+  src: url("../fonts/Yekan/Yekan.eot");
+  src: url("../fonts/Yekan/Yekan.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Yekan/Yekan.woff") format("woff"),
+    url("../fonts/Yekan/Yekan.ttf") format("truetype");
+}
+@font-face {
+  font-family: "iransans";
+  src: url("../fonts/iransans/IRANSansWeb.eot");
+  src: url("../fonts/iransans/IRANSansWeb.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/iransans/IRANSansWeb.woff") format("woff"),
+    url("../fonts/iransans/IRANSansWeb.ttf") format("truetype");
+}
+body {
+  color: #5d6678 !important;
+}
+.ws-btn-primary {
+  background-color: var(--ws-primary) !important;
+  color: #fff !important;
+}
+.ws-badge-primary {
+  background-color: var(--ws-primary) !important;
+  color: #fff !important;
+}
+.ws-btn-primary:hover {
+  background-color: var(--ws-secondary) !important;
+  border-color: var(--ws-secondary) !important;
+}
+.ws-btn-outline-primary {
+  background-color: transparent !important;
+  border: 1px solid var(--ws-primary) !important;
+  color: var(--ws-primary) !important;
+}
+.ws-btn-outline-primary:hover {
+  background-color: var(--ws-primary) !important;
+  color: #fff !important;
+}
+.ws-btn-secondary {
+  background-color: var(--ws-secondary) !important;
+}
+.ws-btn-secondary:hover {
+  background-color: var(--ws-color-3) !important;
+}
+.ws-btn-3 {
+  background-color: var(--ws-color-3) !important;
+  color: #fff !important;
+}
+.ws-btn-3:hover {
+  background-color: var(--ws-secondary) !important;
+  color: #fff !important;
+  border-color: var(--ws-secondary) !important;
+}
+.ws-text-primary {
+  color: var(--ws-primary) !important;
+}
+.ws-text-secondary {
+  color: var(--ws-secondary) !important;
+}
+.ws-text-3 {
+  color: var(--ws-color-3) !important;
+}
+ul {
+  padding-right: 0px !important;
+}
+a {
+  color: #5d6678 !important;
+  text-decoration: none !important;
+  transition: all 0.5s;
+}
+a:hover {
+  color: var(--ws-primary) !important;
+}
+nav {
+  z-index: 999999 !important;
+  position: relative;
+  transition: all 0.5s;
+}
+#sticky-wrapper.is-sticky nav {
+  box-shadow: 0px 0px 20px 0px #f1f1f1;
+  padding: 0;
+}
