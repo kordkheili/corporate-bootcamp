@@ -117,6 +117,7 @@ body {
 .carousel-control-prev {
   align-items: flex-end;
   margin-bottom: 20px;
+  z-index: 999999999;
 }
 .carousel-control-prev {
   margin-right: 10px;
